@@ -1,0 +1,50 @@
+:root{
+--dark: #000;
+--light: #fff;
+--primary: #172A3A;
+--primary-shade-100: #E2EBF3;
+--primary-shade-400: #97c1e5;
+--primary-shade-700: #3C6990;
+--secondary: #106d82;
+--secondary-shade-400: #78cbee;
+--border-radius: 8px;
+
+
+
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+ 
+}
+
+body {
+  color: var(--primary);
+  
+}
+h1{
+  text-align: center;
+  padding:2rem;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  
+
+}
+a:hover {
+  color: var(--primary-shade-400);
+  
+
+}
+li{
+  list-style: none;
+}

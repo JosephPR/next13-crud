@@ -1,0 +1,51 @@
+.nav {
+  background-color: var(--primary);
+  min-height: 5rem;
+  padding: 3rem;
+  color: var(--light);
+}
+.navItems {
+  font-size:1.5rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.navItem {
+  padding-right: 1.5rem;
+}
+.buttonContainer {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+}
+.buttonPrimary,
+.buttonSecondary {
+  text-align: center;
+  padding: 20px;
+  min-width: 15rem;
+  text-decoration: none;
+  border-radius: var(--border-radius);
+  border: 2px solid var(--secondary);
+  box-shadow: 3px 3px 3px #0f334340;
+}
+.buttonPrimary {
+  color: var(--primary);
+  transition: 0.3s;
+}
+.buttonSecondary {
+  color: var(--light);
+  background-color: var(--secondary);
+  transition: 0.3s;
+}
+.buttonPrimary:hover {
+  color: var(--light);
+  background-color: var(--secondary);
+  box-shadow: 3px 5px 5px #0f334340;
+}
+.buttonSecondary:hover {
+  color: var(--primary);
+  background-color: var(--light);
+  box-shadow: 3px 5px 5px #0f334340;
+}
