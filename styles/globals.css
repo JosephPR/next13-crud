@@ -1,16 +1,13 @@
 :root{
 --dark: #000;
 --light: #fff;
---primary: #172A3A;
---primary-shade-100: #E2EBF3;
---primary-shade-400: #97c1e5;
---primary-shade-700: #3C6990;
---secondary: #106d82;
+--primary: #173a28;
+--primary-shade-100: #e2f3eb;
+--primary-shade-400: #97e5ba;
+--primary-shade-700: #3c906d;
+--secondary: #8e8a8b;
 --secondary-shade-400: #78cbee;
 --border-radius: 8px;
-
-
-
 }
 
 * {
@@ -23,7 +20,6 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
- 
 }
 
 body {
