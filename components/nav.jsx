@@ -12,6 +12,9 @@ export default function nav() {
         <li className={styles.navItem}>
           <Link href="/todos"> Dynamic routes</Link>
         </li>
+        <li className={styles.navItem}>
+          <Link href="/projects"> Database </Link>
+        </li>
       </ul>
     </div>
   );
